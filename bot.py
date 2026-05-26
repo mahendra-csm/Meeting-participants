@@ -1,4 +1,5 @@
 import asyncio
+from typing import Optional
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
 
 # ──────────────────────────────────────────────
@@ -78,7 +79,7 @@ MEETING_CONFIRM_SELECTORS = [
 #  HELPERS
 # ──────────────────────────────────────────────
 
-async def _check_for_zoom_error(page) -> str | None:
+async def _check_for_zoom_error(page) -> Optional[str]:
     """Return the error text if Zoom is showing a soft-error page, else None."""
     try:
         body = (await page.inner_text("body")).lower()
