@@ -8,7 +8,7 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 # ──────────────────────────────────────────────
 
 
-MEETING_URL = "https://us04web.zoom.us/j/73468972010?pwd=aQfq1BHpE0GMBRhUVjmbNcbalflPuQ.1"
+MEETING_URL = "https://us05web.zoom.us/j/81132958874?pwd=uST3vT6dWhhWniySPuyupC89I9eFmi.1"
 
 BOT_NAMES = [
     "Alice Johnson",  "Bob Smith",      "Carol White",
