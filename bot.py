@@ -4,7 +4,9 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 
 # ──────────────────────────────────────────────
 #  CONFIGURATION
+#  CONFIGURATION
 # ──────────────────────────────────────────────
+
 
 MEETING_URL = "https://us04web.zoom.us/j/73468972010?pwd=aQfq1BHpE0GMBRhUVjmbNcbalflPuQ.1"
 
