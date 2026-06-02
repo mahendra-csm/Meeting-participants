@@ -21,7 +21,7 @@ BOT_NAMES = [
 ]
 
 STAY_DURATION = 3600  # seconds each bot stays in the meeting after joining
-LAUNCH_DELAY  = 0   # seconds to wait before triggering the next bot's join
+LAUNCH_DELAY  = 0  # seconds to wait before triggering the next bot's join
 
 # ──────────────────────────────────────────────
 #  STEALTH — reduces automation signals
